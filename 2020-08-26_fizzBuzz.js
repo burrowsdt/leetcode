@@ -21,7 +21,7 @@ var fizzBuzz = function(n) {
 
 fizzBuzz(test);
 
-// Do small things matter? Altering the FizzBuzz criteria -- it seems like, at least here, the difference is negligible (according to jsbench.me)
+// Do small things matter? Altering the FizzBuzz criteria -- it seems like, at least here, the difference is negligible (according to jsbench.me) although it varies from execution to execution
 
 var fizzBuzz = function(n) {
   let integerArray = [];
@@ -40,3 +40,9 @@ var fizzBuzz = function(n) {
 };
 
 fizzBuzz(test);
+
+// The following solution on leetcode has the best memory distribution but is substantially slower (~ 72%)
+
+var fizzBuzz = function(n) {
+    return new Array(n).fill(0).map((a, i) => (++i % 3 ? '' : 'Fizz') + (i % 5 ? '' : 'Buzz') || '' + i);
+};
