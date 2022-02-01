@@ -10,7 +10,7 @@
  * @return {number}
  */
 
-// Solution #1 - super inefficient but this was really easy to overthink!
+// Solution #1 - super inefficient but this was really easy to overthink! Lol, keeping for posterity. 
 // Runtime: 475 ms, faster than 5.01% of JavaScript online submissions for Best Time to Buy and Sell Stock.
 // Memory Usage: 57.5 MB, less than 5.00% of JavaScript online submissions for Best Time to Buy and Sell Stock.
 
